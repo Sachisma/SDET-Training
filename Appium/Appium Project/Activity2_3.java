@@ -94,6 +94,6 @@ public class Activity2_3 {
 
     @AfterTest
     public void endTest() {
-        //driver.quit();
+        driver.quit();
     }
 }
