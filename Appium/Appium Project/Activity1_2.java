@@ -7,8 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumDriver;
@@ -21,7 +23,7 @@ public class Activity1_2 {
 		  WebDriverWait wait;
 		    AppiumDriver<MobileElement> driver = null;
 
-		    @BeforeTest
+		    @BeforeClass
 		    public void setup() throws MalformedURLException {
 
 		        // Set the Desired Capabilities
@@ -70,8 +72,8 @@ public class Activity1_2 {
 		         
 		     
 		     }
-		 @AfterTest
+		 @AfterClass
 		    public void tearDown() {
-		        driver.quit();
+		       // driver.quit();
 		    }
 }
