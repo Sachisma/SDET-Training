@@ -2,15 +2,13 @@ package Appium_Project;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
@@ -21,7 +19,7 @@ public class Activity1_3 {
 	  WebDriverWait wait;
 	    AppiumDriver<MobileElement> driver = null;
 
-	    @BeforeTest
+	    @BeforeClass
 	    public void setup() throws MalformedURLException {
 
 	        // Set the Desired Capabilities
@@ -91,8 +89,8 @@ public class Activity1_3 {
 	        Assert.assertTrue(noteReminder.isDisplayed());
 	        System.out.println("Reminder added successfully");
 	     }
-	 @AfterTest
+	 @AfterClass
 	    public void tearDown() {
-	        driver.quit();
+	        //driver.quit();
 	    }
 }
