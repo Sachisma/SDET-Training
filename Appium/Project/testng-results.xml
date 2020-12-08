@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-08T16:18:50 IST" name="Suite" finished-at="2020-12-08T16:22:13 IST" duration-ms="202497">
+    <groups>
+    </groups>
+    <test started-at="2020-12-08T16:18:50 IST" name="Test" finished-at="2020-12-08T16:22:13 IST" duration-ms="202497">
+      <class name="Appium_Project.Activity2_2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Appium_Project.Activity2_2@10163d6]" started-at="2020-12-08T16:20:43 IST" name="setup" finished-at="2020-12-08T16:20:53 IST" duration-ms="9701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchAppium()[pri:0, instance:Appium_Project.Activity2_2@10163d6]" started-at="2020-12-08T16:20:53 IST" name="testSearchAppium" finished-at="2020-12-08T16:21:32 IST" duration-ms="39011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAppium -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Appium_Project.Activity2_2@10163d6]" started-at="2020-12-08T16:21:32 IST" name="endTest" finished-at="2020-12-08T16:21:32 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Appium_Project.Activity2_2 -->
+      <class name="Appium_Project.Activity1_3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Appium_Project.Activity1_3@22e357dc]" started-at="2020-12-08T16:19:38 IST" name="setup" finished-at="2020-12-08T16:19:48 IST" duration-ms="10374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reminderNote()[pri:0, instance:Appium_Project.Activity1_3@22e357dc]" started-at="2020-12-08T16:19:48 IST" name="reminderNote" finished-at="2020-12-08T16:20:00 IST" duration-ms="11694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reminderNote -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Appium_Project.Activity1_3@22e357dc]" started-at="2020-12-08T16:20:00 IST" name="tearDown" finished-at="2020-12-08T16:20:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Appium_Project.Activity1_3 -->
+      <class name="Appium_Project.Activity2_3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Appium_Project.Activity2_3@2dde1bff]" started-at="2020-12-08T16:21:32 IST" name="setup" finished-at="2020-12-08T16:21:42 IST" duration-ms="9498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchAppium()[pri:0, instance:Appium_Project.Activity2_3@2dde1bff]" started-at="2020-12-08T16:21:42 IST" name="testSearchAppium" finished-at="2020-12-08T16:22:13 IST" duration-ms="30851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAppium -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Appium_Project.Activity2_3@2dde1bff]" started-at="2020-12-08T16:22:13 IST" name="endTest" finished-at="2020-12-08T16:22:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Appium_Project.Activity2_3 -->
+      <class name="Appium_Project.Activity1_1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Appium_Project.Activity1_1@306f16f3]" started-at="2020-12-08T16:18:50 IST" name="setup" finished-at="2020-12-08T16:19:02 IST" duration-ms="11486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addtask1()[pri:0, instance:Appium_Project.Activity1_1@306f16f3]" started-at="2020-12-08T16:19:02 IST" name="addtask1" finished-at="2020-12-08T16:19:08 IST" duration-ms="6825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtask1 -->
+        <test-method signature="addtask2()[pri:0, instance:Appium_Project.Activity1_1@306f16f3]" started-at="2020-12-08T16:19:08 IST" name="addtask2" finished-at="2020-12-08T16:19:13 IST" duration-ms="4946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtask2 -->
+        <test-method signature="addtask3()[pri:0, instance:Appium_Project.Activity1_1@306f16f3]" started-at="2020-12-08T16:19:13 IST" name="addtask3" finished-at="2020-12-08T16:19:18 IST" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtask3 -->
+        <test-method signature="checkTasksAdded()[pri:0, instance:Appium_Project.Activity1_1@306f16f3]" started-at="2020-12-08T16:19:18 IST" name="checkTasksAdded" finished-at="2020-12-08T16:19:18 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTasksAdded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Appium_Project.Activity1_1@306f16f3]" started-at="2020-12-08T16:19:18 IST" name="tearDown" finished-at="2020-12-08T16:19:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Appium_Project.Activity1_1 -->
+      <class name="Appium_Project.Activity1_2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Appium_Project.Activity1_2@702b8b12]" started-at="2020-12-08T16:19:18 IST" name="setup" finished-at="2020-12-08T16:19:29 IST" duration-ms="10523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNote()[pri:0, instance:Appium_Project.Activity1_2@702b8b12]" started-at="2020-12-08T16:19:29 IST" name="addNote" finished-at="2020-12-08T16:19:38 IST" duration-ms="9245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNote -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Appium_Project.Activity1_2@702b8b12]" started-at="2020-12-08T16:19:38 IST" name="tearDown" finished-at="2020-12-08T16:19:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Appium_Project.Activity1_2 -->
+      <class name="Appium_Project.Activity2_1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Appium_Project.Activity2_1@49912c99]" started-at="2020-12-08T16:20:00 IST" name="setup" finished-at="2020-12-08T16:20:11 IST" duration-ms="10991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchAppium()[pri:0, instance:Appium_Project.Activity2_1@49912c99]" started-at="2020-12-08T16:20:11 IST" name="testSearchAppium" finished-at="2020-12-08T16:20:42 IST" duration-ms="31134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAppium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Appium_Project.Activity2_1@49912c99]" started-at="2020-12-08T16:20:42 IST" name="tearDown" finished-at="2020-12-08T16:20:43 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Appium_Project.Activity2_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
